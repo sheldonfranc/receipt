@@ -20,6 +20,9 @@ class ReceiptPage extends StatelessWidget {
             ),
           ),
           title: Text("Receipt Page"),
+            leading: IconButton(icon:Icon(Icons.arrow_back),
+              onPressed:() => Navigator.pop(context, false),
+            )
         ),
         body: GestureDetector(
           onTap: () {

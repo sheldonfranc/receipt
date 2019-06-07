@@ -20,9 +20,9 @@ class JsonReaderService {
   List<Bank> getResults(){
     return <Bank> [
       Bank(
-          bankId: 1, bankName: 'Bank Of America', bankShortName: 'BOA', accountNumber: 1234567890, accountType: 'Credit Card', logoUrl: 'assert/boa.png'),
+          bankId: 1, bankName: 'Capital One', bankShortName: 'COF', accountNumber: 9876543210, accountType: 'Credit Card', logoUrl: 'assert/capone.png'),
       Bank(
-          bankId: 2, bankName: 'Capital One', bankShortName: 'COF', accountNumber: 9876543210, accountType: 'Credit Card', logoUrl: 'assert/capone.png'),
+          bankId: 2, bankName: 'Bank Of America', bankShortName: 'BOA', accountNumber: 1234567890, accountType: 'Credit Card', logoUrl: 'assert/boa.png'),
       Bank(
           bankId: 3, bankName: 'Chase', bankShortName: 'Chase', accountNumber: 8765432190, accountType: 'Credit Card', logoUrl: 'assert/chase.png'),
       Bank(

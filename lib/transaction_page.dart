@@ -19,6 +19,9 @@ class TransactionPage extends StatelessWidget {
             ),
           ),
           title: Text("Transaction Details"),
+            leading: IconButton(icon:Icon(Icons.arrow_back),
+              onPressed:() => Navigator.pop(context, false),
+            )
         ),
         body: new Transaction(),
       ),
@@ -71,7 +74,7 @@ class TransactionState extends State<Transaction> {
                         style: TextStyle(color: Colors.amberAccent, fontWeight:  FontWeight.bold),
                       ),
                       subtitle: Row(children: <Widget>[
-                        Text("2900 Center Blvd, Newark DE", style: TextStyle(color: Colors.white))
+                        Text("20 Center Blvd, Newark DE", style: TextStyle(color: Colors.white))
                       ]),
                       onTap: () {
                         Navigator.push(

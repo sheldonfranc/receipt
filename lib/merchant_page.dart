@@ -19,6 +19,9 @@ class MerchantPage extends StatelessWidget {
             ),
           ),
           title: Text("Merchant Info"),
+            leading: IconButton(icon:Icon(Icons.arrow_back),
+              onPressed:() => Navigator.pop(context, false),
+            )
         ),
         // body: gridLayout.build(),
         body: new Merchant(),
