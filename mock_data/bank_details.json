@@ -1,0 +1,26 @@
+[
+   {
+      "bankId": 1,
+      "bankName": "Bank Of America",
+      "bankShortName": "BOA",
+      "accountType": "Credit Card",
+      "accountNumber": 1234567890,
+      "logoUrl": "asserts/boa.png"
+    },
+    {
+      "bankId": 2,
+      "bankName": "Capital One",
+      "bankShortName": "COF",
+      "accountType": "Credit Card",
+      "accountNumber": 9876543210,
+      "logoUrl": "asserts/cof.png"
+    },
+    {
+      "bankId": 3,
+      "bankName": "Chase",
+      "bankShortName": "Chase",
+      "accountType": "Credit Card",
+      "accountNumber": 8765432190,
+      "logoUrl": "asserts/chase.png"
+    }
+]
