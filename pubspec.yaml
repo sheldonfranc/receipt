@@ -48,6 +48,7 @@ flutter:
     - images/logo/kohls_logo.png
     - images/logo/costco_logo.png
     - images/logo/gamestop_logo.png
+    - images/logo/sams_club_logo.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

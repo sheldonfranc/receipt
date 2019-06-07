@@ -65,16 +65,16 @@ class TransactionState extends State<Transaction> {
                       leading: Container(
                         padding: EdgeInsets.only(right: 12.0, top: 10.0),
                         child: Text(
-                            "01/05",
+                            "06/07",
                             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)
                         ),
                       ),
                       title: Text(
-                        "Main Event",
+                        "Sams Club",
                         style: TextStyle(color: Colors.amberAccent, fontWeight:  FontWeight.bold),
                       ),
                       subtitle: Row(children: <Widget>[
-                        Text("20 Center Blvd, Newark DE", style: TextStyle(color: Colors.white))
+                        Text("800 Delaware Ave, DE", style: TextStyle(color: Colors.white))
                       ]),
                       onTap: () {
                         Navigator.push(
@@ -87,7 +87,7 @@ class TransactionState extends State<Transaction> {
                       trailing: Container(
                         padding: EdgeInsets.only(right: 12.0),
                         child: Text(
-                          "\$280.03",
+                          "\$13.64",
                           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
                         ),
                       ),

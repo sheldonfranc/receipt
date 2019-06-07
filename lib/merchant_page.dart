@@ -82,7 +82,7 @@ class TheGridView {
       mainAxisSpacing: 40.0,
       crossAxisSpacing: 40.0,
       children: <Widget>[
-        makeGridCell(context, 'images/logo/mainevent_logo.png'),
+        makeGridCell(context, 'images/logo/sams_club_logo.png'),
         makeGridCell(context, 'images/logo/costco_logo.png'),
         makeGridCell(context, 'images/logo/kohls_logo.png'),
         makeGridCell(context, 'images/logo/gamestop_logo.png'),
