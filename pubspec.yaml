@@ -43,7 +43,11 @@ flutter:
   assets:
     - mock_data/bank_details.json
     - images/amazon.png
-    - images/circle.jpg
+    - images/mainevent.png
+    - images/logo/mainevent_logo.png
+    - images/logo/kohls_logo.png
+    - images/logo/costco_logo.png
+    - images/logo/gamestop_logo.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

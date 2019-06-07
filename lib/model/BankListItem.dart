@@ -43,7 +43,9 @@ class BankListItem extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-                builder: (context) => MerchantPage()));
+                builder: (context) => MerchantPage(
+                    bankIdentifier: _bank.bankId
+                )));
       },
     );
   }
